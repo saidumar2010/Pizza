@@ -1,0 +1,462 @@
+.nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 150px;
+}
+
+.nav h1 {
+  color: gray;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-ong {
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.section-ong img {
+  border-radius: 30px;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.p {
+  font-size: 20px !important;
+  color: black;
+}
+
+.section-chap-div {
+  width: 40%;
+}
+
+.section-chap-div p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-chap-div h1 {
+  font-size: 50px;
+}
+
+.section-chap-div .button {
+  border: 1px solid red;
+  border-radius: 30px;
+  width: 30%;
+  height: 7vh;
+  background: none;
+  color: black;
+}
+
+.section-chap-div .button .h2 {
+  font-size: 20px !important;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.footer i {
+  font-size: 50px;
+  color: red;
+  margin-left: 30px;
+}
+
+.section-pizza {
+  width: 100%;
+  height: 80vh;
+}
+
+.pizza-div {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  bottom: 400px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  left: 500px;
+  color: white;
+  font-size: 40px;
+}
+
+.pizza-img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.pizza-img img {
+  object-fit: cover;
+}
+
+.section-pitsalar {
+  width: 100%;
+  height: 150vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-pitsalar .section-pitsalar-div {
+  width: 26%;
+  height: 40%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 30px 0px;
+  position: relative;
+  z-index: 2;
+  bottom: 100px;
+  margin: 10px 10px;
+}
+
+.section-pitsalar .section-pitsalar-div .section-pitsalar-div-img {
+  width: 90%;
+  height: 65%;
+}
+
+.section-pitsalar .section-pitsalar-div .section-pitsalar-div-y {
+  width: 90%;
+  height: 30%;
+}
+
+.section-pitsalar .section-pitsalar-div .section-pitsalar-div-y p {
+  font-size: 25px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-pitsalar-div-img img {
+  object-fit: cover;
+  height: 40vh;
+}
+
+.burchak img {
+  object-fit: cover;
+}
+
+.section-pitsalar-div-past {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  position: relative;
+  z-index: 2;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.section-pitsalar-div-past a {
+  color: white;
+}
+
+.action-ong img {
+  object-fit: cover;
+}
+
+.aside-img img {
+  object-fit: cover;
+}
+
+.yozuv {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(23, 23, 23);
+  position: relative;
+  z-index: 1;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yozuv-chap {
+  width: 40%;
+  height: 100%;
+}
+
+.yozuv-chap h1 {
+  font-size: 50px;
+  color: orangered;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.yozuv-chap h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.yozuv-chap p {
+  color: gray;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.yozuv-ong {
+  width: 30%;
+  height: 100%;
+}
+
+.yozuv-ong h1 {
+  font-size: 50px;
+  color: orangered;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.yozuv-ong h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.yozuv-ong p {
+  color: gray;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.burchak {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  bottom: 50px;
+}
+
+.web {
+  width: 40%;
+  height: 40vh;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  bottom: 190px;
+  left: 400px;
+}
+
+.web .web1 {
+  width: 90%;
+  height: 50%;
+  text-align: center;
+}
+
+.web .web1 p {
+  font-size: 20px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.web .button1 {
+  width: 30%;
+  height: 8vh;
+  border-radius: 30px;
+  border: 1px solid red;
+  background: none;
+  color: black;
+  font-size: 12px;
+}
+
+.ter {
+  width: 100%;
+  height: 140vh;
+  background-color: orangered;
+  position: relative;
+  z-index: 1;
+  bottom: 366px;
+  display: flex;
+  justify-content: center;
+}
+
+.ter-chap {
+  width: 40%;
+  height: 80%;
+  margin-top: 200px;
+}
+
+.ter-chap h1 {
+  font-size: 50px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ter-chap h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.ter-chap p {
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.ter-ong {
+  width: 30%;
+  height: 80%;
+  margin-top: 200px;
+}
+
+.ter-ong h1 {
+  font-size: 50px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ter-ong h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.ter-ong p {
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.action {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  bottom: 350px;
+}
+
+.action1 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-ong {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+.action-ong img {
+  border-radius: 30px;
+  height: 70vh;
+  width: 90%;
+}
+
+.p {
+  font-size: 20px !important;
+  color: black;
+}
+
+.action-chap-div {
+  width: 40%;
+  text-align: center;
+}
+
+.action-chap-div p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.action-chap-div h1 {
+  font-size: 50px;
+}
+
+.action-chap-div .button {
+  border: 1px solid red;
+  border-radius: 30px;
+  width: 30%;
+  height: 7vh;
+  background: none;
+  color: black;
+}
+
+.action-chap-div .button .h2 {
+  font-size: 20px !important;
+}
+
+.aside {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside .aside1 {
+  width: 15%;
+  height: 30vh;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  bottom: 750px;
+  margin: 0px 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.aside .aside1 p {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.aside .aside1 h2 {
+  font-weight: bold;
+}
+
+.aside .aside-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  bottom: 350px;
+}
+
+.foter {
+  height: 30vh;
+  background-color: rgb(54, 54, 54);
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+  color: white;
+  bottom: 350px;
+}
+
+/*# sourceMappingURL=style.css.map */
